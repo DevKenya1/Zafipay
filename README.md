@@ -1,4 +1,4 @@
-[System.IO.File]::WriteAllText("$PWD\README.md", @'
+
 # Zafipay — Multi-Provider Payment Gateway
 
 > A production-grade payment infrastructure built for Kenya and the world. One unified API for M-Pesa, Airtel Money, Stripe, Flutterwave, and PayPal — with a full merchant dashboard and embeddable SDK.
@@ -391,4 +391,3 @@ Built by **Emmanuel Jesse** (Code Tech)
 ## License
 
 MIT License — free to use, modify, and distribute.
-'@, [System.Text.UTF8Encoding]::new($false))
